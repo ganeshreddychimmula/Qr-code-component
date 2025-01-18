@@ -1,3 +1,8 @@
+@font-face {
+    font-family: outfit;
+    src: url("https://fonts.google.com/specimen/Outfit");
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -31,3 +36,22 @@ img {
     aspect-ratio: 1;
     border-radius: 10px;
     }
+
+#content > * {
+    display: block;
+    text-align: center;
+    font-family: outfit;
+    font-size: 15px;
+}
+
+#content > * + * {
+    margin-top: 5px;
+}
+
+#content :first-child{
+    font-weight: 700;
+}
+
+#content :last-child {
+    font-weight: 400;
+}
