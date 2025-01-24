@@ -37,9 +37,7 @@ body{
 
 img {
     display: block;
-    min-width: 20rem;
-    max-width: 60rem;
-    width: 10vw;
+    width: 15vw;
     aspect-ratio: 1;
     border-radius: 2rem;
     }
@@ -49,6 +47,7 @@ img {
     text-align: center;
     font-family: outfit;
     font-size: 3rem;
+    padding-inline: 0.5rem;
 }
 
 #content > * + * {
@@ -61,7 +60,7 @@ img {
 }
 
 #content :last-child {
-    font-size: 12px;
+    font-size: 2.5rem;
     font-weight: 400;
     color: hsl(216, 15%, 48%);
 }
