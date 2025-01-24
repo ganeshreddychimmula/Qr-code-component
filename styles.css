@@ -47,6 +47,7 @@ body{
     border-radius: 2rem;
     overflow:hidden ;
     background-color: var(--white);
+    transition: all 1s ease;
 }
 /*
 .qr-component > * + * {
@@ -109,6 +110,7 @@ img {
 .qr-component{
     width: 80vw;
     gap: 1.5rem;
+    transition-duration: 0s;
 } 
 
 .text-container {
