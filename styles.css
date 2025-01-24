@@ -41,7 +41,7 @@ body{
     height: max-content;
     min-width: min-content;
     min-height: min-content;
-    width: 20vw;
+    width: 350px;
     gap: 5rem;
     padding: 2rem;
     border-radius: 2rem;
@@ -87,11 +87,12 @@ img {
 
 @media screen and (max-width: 1000px){
     .qr-component{
-        width: 30vw;
+        width: 250px;
+        gap: 3rem;
     } 
     
     .text-container {
-        padding-inline: 3rem;
+        padding-inline: 1.5rem;
         gap: 1rem;
     }
     
@@ -100,44 +101,26 @@ img {
     }
     
     .text-container .description{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
 .qr-component{
-    width: 50vw;
+    width: 80vw;
+    gap: 1.5rem;
 } 
 
 .text-container {
-    padding-inline: 2rem;
-    gap: 1rem;
+    padding-inline: 1rem;
+    gap: 0.7rem;
 }
 
 .text-container .heading{
-    font-size: 3.2rem;
+    font-size: 2.8rem;
 }
 
 .text-container .description{
-    font-size: 2rem;
-}
-}
-
-@media screen and (max-width: 500px){
-.qr-component{
-    width: 50vw;
-} 
-
-.text-container {
-    padding-inline: 2rem;
-    gap: 1rem;
-}
-
-.text-container .heading{
-    font-size: 3.2rem;
-}
-
-.text-container .description{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 }
