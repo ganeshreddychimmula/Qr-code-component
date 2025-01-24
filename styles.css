@@ -41,10 +41,11 @@ body{
     min-width: min-content;
     min-height: min-content;
     width: 20vw;
+    height: max-content;
     gap: 5rem;
     padding: 2rem;
     border-radius: 2rem;
-    overflow:none;
+    overflow:hidden ;
     background-color: var(--white);
 }
 /*
