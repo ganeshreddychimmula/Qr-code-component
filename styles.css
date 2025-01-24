@@ -37,9 +37,10 @@ body{
 .qr-component {
     display: flex;
     flex-direction: column;
-    justify-content: start; 
-    width: min-content;
-    height: min-content;
+    justify-content: start;
+    min-width: min-content;
+    min-height: min-content;
+    width: 20vw;
     gap: 5rem;
     padding: 2rem;
     border-radius: 2rem;
@@ -54,7 +55,7 @@ body{
 
 img {
     display: block;
-    width: 15vw;
+    width: 100%;
     aspect-ratio: 1;
     border-radius: 2rem;
     }
