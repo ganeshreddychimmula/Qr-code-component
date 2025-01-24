@@ -58,7 +58,7 @@ img {
     border-radius: 2rem;
     }
 
-#content > * {
+.text-container > * {
     display: block;
     text-align: center;
     font-family: outfit, sans-serif;
@@ -67,11 +67,11 @@ img {
     margin: 2rem 0rem;
 }
 
-#content :first-child{
+.text-container  :first-child{
     font-weight: 700;
 }
 
-#content :last-child {
+.text-container  :last-child {
     font-size: 3rem;
     color: hsl(216, 15%, 48%);
 }
