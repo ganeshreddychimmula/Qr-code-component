@@ -7,7 +7,7 @@
     font-size: 5px;
     --white: hsl(0, 0%, 100%);
     --light-gray: hsl(212, 45%, 89%);
-    --grayish-blue: hsl(220, 15%, 55%);
+    --grayish-blue: hsl(216, 15%, 48%);
     --dark-blue: hsl(218, 44%, 22%);
 }
 
@@ -26,9 +26,9 @@ body{
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--light-gray);
     overflow: hidden;
     overflow-y: scroll;
     font-size: 2rem;
@@ -45,7 +45,7 @@ body{
     padding: 2rem;
     border-radius: 2rem;
     overflow:none;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
 }
 /*
 .qr-component > * + * {
@@ -80,6 +80,6 @@ img {
 
 .text-container  :last-child {
     font-size: 3rem;
-    color: hsl(216, 15%, 48%);
+    color: var(--grayish-blue);
     margin-block-end: 4rem;
 }
