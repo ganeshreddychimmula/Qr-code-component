@@ -16,6 +16,7 @@ body{
     align-items: center;
     background-color: hsl(212, 45%, 89%);
     overflow: hidden;
+    overflow-y: scroll;
     font-size: 16px;
 }
 
@@ -27,7 +28,7 @@ body{
     height: min-content;
     padding: 2rem;
     border-radius: 2rem;
-    overflow:auto;
+    overflow:none;
     background-color: hsl(0, 0%, 100%);
 }
 
