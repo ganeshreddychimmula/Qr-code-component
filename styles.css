@@ -31,7 +31,7 @@ body{
     background-color: hsl(212, 45%, 89%);
     overflow: hidden;
     overflow-y: scroll;
-    font-size: 16px;
+    font-size: 2rem;
 }
 
 .qr-component {
@@ -61,8 +61,8 @@ img {
 #content > * {
     display: block;
     text-align: center;
-    font-family: outfit;
-    font-size: 3.5rem;
+    font-family: outfit, sans-serif;
+    font-size: 4.6rem;/*23px*/
     padding: 0rem 2rem;
     margin: 2rem 0rem;
 }
@@ -72,7 +72,6 @@ img {
 }
 
 #content :last-child {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 3rem;
     color: hsl(216, 15%, 48%);
 }
