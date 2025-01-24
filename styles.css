@@ -38,10 +38,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: start;
+    height: max-content;
     min-width: min-content;
     min-height: min-content;
     width: 20vw;
-    height: max-content;
     gap: 5rem;
     padding: 2rem;
     border-radius: 2rem;
@@ -83,4 +83,61 @@ img {
     font-size: 3rem;
     color: var(--grayish-blue);
     margin-block-end: 4rem;
+}
+
+@media screen and (max-width: 1000px){
+    .qr-component{
+        width: 30vw;
+    } 
+    
+    .text-container {
+        padding-inline: 3rem;
+        gap: 1rem;
+    }
+    
+    .text-container .heading{
+        font-size: 3.5rem;
+    }
+    
+    .text-container .description{
+        font-size: 3rem;
+    }
+    }
+
+@media screen and (max-width: 500px){
+.qr-component{
+    width: 50vw;
+} 
+
+.text-container {
+    padding-inline: 2rem;
+    gap: 1rem;
+}
+
+.text-container .heading{
+    font-size: 3.2rem;
+}
+
+.text-container .description{
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 500px){
+.qr-component{
+    width: 50vw;
+} 
+
+.text-container {
+    padding-inline: 2rem;
+    gap: 1rem;
+}
+
+.text-container .heading{
+    font-size: 3.2rem;
+}
+
+.text-container .description{
+    font-size: 2rem;
+}
 }
